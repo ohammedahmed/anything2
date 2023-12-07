@@ -1,0 +1,157 @@
+body{
+  background-color:#123;
+
+}
+
+
+
+/**********menu*************/
+.menu{
+  background-color:#333;
+  height:100vh;
+  width:70px;
+  position:absolute;
+  left:0;
+  top:0;
+  overflow:hidden;
+  transition:.5s;
+}
+.menu:hover{
+  transition:.5s;
+  width:300px;
+}
+
+.tools{
+  height:90%;
+  position:relative;
+}
+
+
+
+.img-text{
+  display:flex;
+  align-items:center;
+  gap:30px;
+}
+img{
+  margin-top:15px;
+  width:50px;
+  background-color:#797979;
+  border-radius:50% 50% 50% 50%;
+  border:3px solid white;
+  /* background-color:gold; */
+}
+#span-img{
+  color:white;
+}
+
+
+.home-icon{
+  display:flex;
+  align-items:center;
+  gap:30px;
+  margin:30px 0;
+  background-color:#A19E9E;
+  border-radius:8px 8px 8px 8px;
+  box-shadow:3px 7px 35px black;
+}
+.home-icon:hover{
+  transition:.5s;
+  cursor:pointer;
+}
+.icon-1{
+  width:50px;
+  flex-shrink:0;
+  flex-grow:0;
+}
+span{
+  font-size:25px;
+  font-weight:bold;
+  /* cursor:pointer; */
+  /* background-color:red; */
+  /* width:100%; */
+}
+
+.search-icon{
+  display:flex;
+  align-items:center;
+  gap:30px;
+  margin-bottom:30px;
+  transition:.5s;
+}
+.search-icon:hover{
+  background-color:#A19E9E;
+  transition:.5s;
+  cursor:pointer;
+    border-radius:8px 8px 8px 8px;
+      box-shadow:3px 7px 35px black;
+}
+
+.icon-2{
+  width:50px;
+  flex-shrink:0;
+  flex-grow:0;
+}
+
+
+.setting-icon{
+  display:flex;
+  align-items:center;
+  gap:30px;
+  margin-bottom:30px;
+  transition:.5s;
+}
+.setting-icon:hover{
+  transition:.5s;
+  background-color:#A19E9E;
+  cursor:pointer;
+    border-radius:8px 8px 8px 8px;
+      box-shadow:3px 7px 35px black;
+}
+.icon-3{
+  width:50px;
+  flex-shrink:0;
+  flex-grow:0;
+}
+
+.user-icon{
+  display:flex;
+  align-items:center;
+  gap:30px;
+  transition:.5s;
+}
+.user-icon:hover{
+  transition:.5s;
+  background-color:#A19E9E;
+  cursor:pointer;
+    border-radius:8px 8px 8px 8px;
+      box-shadow:3px 7px 35px black;
+}
+.icon-4{
+  width:50px;
+  flex-shrink:0;
+  flex-grow:0;
+}
+
+.log-out{
+  display:flex;
+  align-items:center;
+  gap:30px;
+  position:absolute;
+  bottom:0;
+  background-color:#D12C2C;
+  width:100%;
+  cursor:pointer;
+   transition:.5s;
+     border-radius:8px 8px 8px 8px;
+       box-shadow:3px 7px 35px black;
+}
+/* .log-out:hover{
+  transition:.5s;
+  background-color:#006B66;
+} */
+.icon-5{
+  width:50px;
+  flex-shrink:0;
+  flex-grow:0;
+}
